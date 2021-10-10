@@ -1,1 +1,33 @@
 /* Write some CSS below */
+
+body {
+  font-family: overpass, san-serif;
+  font-size: 16px;
+  color: rgb(50, 50, 50);
+  background-color: rgb(230, 230, 230);
+
+}
+
+
+h1 ,h2 {
+  font-family: chivo, san-serif;
+}
+
+
+h2 {
+
+}
+
+
+a {
+  color: white;
+  background-color: #023e8a;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+
+a:hover {
+  background-color: #0077b6;
+}
