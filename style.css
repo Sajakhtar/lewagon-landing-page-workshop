@@ -47,6 +47,7 @@ a {
   background-color: #023e8a;
   padding: 8px 16px;
   border-radius: 4px;
+  transition: 0.3s;
 }
 
 .btn-blue:hover {
@@ -54,8 +55,15 @@ a {
 }
 
 .container {
-  width: 500px;
+  width: 800px;
   margin: 0 auto;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
 }
 
 .card-white {
@@ -69,7 +77,9 @@ a {
 }
 
 .card-white img {
-  max-width: 180px;
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
   border-radius: 4px;
 }
 
@@ -77,5 +87,5 @@ a {
   background-color: #0096c7;
   color: white;
   text-align: center;
-  padding: 16px 0;
+  padding: 8px 0;
 }
